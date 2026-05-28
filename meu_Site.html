@@ -1,55 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Otoniel Macedo</title>
 </head>
 <body>
-    <header>
-        <h1>Informações Sobre Mim</h1>
-        <img src="Minha_foto2.jpg" alt="Foto de Otoniel Macedo" title="Foto de Otoniel Macedo" width="100">
-        <nav>
+    <h1>Otoniel Macedo</h1>
+    <nav>
+        <ul>
+            <li><a href="#sobre mim">Sobre mim</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Contatos">Contatos</a></li>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
+        </ul>
+    </nav>
+    <section id="sobre mim">
+        <h2>Sobre mim</h2>
+        <img src="minha_foto2.jpg" alt="Foto de Otoniel Macedo" width="100" height="150">
+        <p>Olá, meu nome é Otoniel Macedo. Sou um desenvolvedor de software apaixonado por criar soluções inovadoras e eficientes. <br> 
+            Tenho experiência em diversas linguagens de programação e estou sempre buscando aprender novas tecnologias para aprimorar minhas habilidades.</p>
+    </section>
+    <section id="Projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h3>Projeto 1: Pagina web</h3>
+            <p>Este foi o meu Primeiro Projeto HTML</p>
+        </article>
+    </section>
+
+    <section id="Habilidades">
+        <h2>Habilidades e tecnologias</h2>
+        <table>
+            <thead>
+            
+                <tr>
+                    <th>Tecnologias</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Avançado</td>
+                    <td>Linguagem de marcação para estruturação de páginas web</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Linguagem de estilo para design de páginas web</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediário</td>
+                    <td>Linguagem de programação para funcionalidades dinâmicas em páginas web</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <h3>Projeto 2: Calculadora</h3>
+            <p>Este foi o meu Segundo Projeto HTML</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Otoniel Macedo. Todos os direitos reservados.</p>
+        <section id="Contatos">
+        <h2>Contatos</h2>
+        <p>Entre em contato comigo se voê tiver algum projeto em mente.</p>
+
+            <form action="">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required><br><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select>
+                    <option value="Orçamento">Projeto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outros">Outros</option>
+                </select>   
+                <br><br>             
+
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="checkbox" id="inscricao" name="Inscrição" value="">
+                <label for="inscricao">Inscreva-se para receber novidades</label><br><br>
+
+                <input type="submit" value="Enviar">
+
+        <address>
             <ul>
-                <li><a href="#informações pessoais">Minhas Informações Pessoais</a></li>
-                <li><a href="#Educação">Educação</a></li>
-                <li><a href="#Experiência Profissional">Experiência Profissional</a></li> 
+                Email: <a href="mailto:otonielmacedo@gmail.com">otonielmacedo@gmail.com</a>
+                telefone: <a href="tel: 47996659499">47996659499</a>
             </ul>
+        </address>
 
-    </header>
-
-    <section id="informações pessoais">
-        <h2>Informações Pessoais</h2>
-        <article>
-            <p>
-                Meu nome é Otoniel Macedo, tenho 50 anos e predendo ser um  desenvolvedor web. <br>
-                Sou apaixonado por tecnologia e estou sempre buscando aprender novas habilidades para me manter atualizado no campo da programação. <br>
-                Estou obtendo experiência em desenvolvimento web, com foco em front-end e back-end. <br>
-                Tenho um forte interesse em criar soluções inovadoras e eficientes para os desafios do desenvolvimento web.
-
-            </p>
-        </article>
-    </section>
-
-    <section id="Experiência Profissional">
-        <h2>Experiência Profissional</h2>
-        <article>
-            <h3>Atualmente trabalho como conferente em um supermercado</h3>
-                <p>
-                Responsável por fazer a conferência de produtos e garantir a qualidade dos serviços prestados <br>
-                Tenho experiência em lidar com clientes e resolver problemas de forma eficiente. <br>
-                Estou sempre buscando aprimorar minhas habilidades de comunicação e atendimento ao cliente para oferecer a melhor experiência
-                </p>
-        </article>
-    </section>
-
-    <section id="Educação">
-        <h2>Educação</h2>
-        <article>
-            <h3>estou cursando Análise e Desenvolvimento de Sistemas</h3>
-            <p>com foco em desenvolvimento de software e tecnologias web.</p>
-        </article>
-    </section>
-    
+        </section>
+    </footer>
 </body>
 </html>
