@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Formário de Cadastro</h1>
+        <ul>
+            <li><h2>Nome</h2></li>
+            <li><h2>Email</h2></li>
+            <li><h2>Idade</h2></li>
+        </ul>
+        <h2>Preencha o formulário abaixo para se cadastrar:</h2>
+        <form action="">
+            <label for="name">Nome:     </label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:   </label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="age">Idade:     </label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label for="Para qual Matéria Lecionar : ">Materia à lecionar:</label><br>
+                <select name="Materia" id="Materia">
+                    <option value="Matemática">Matemática</option>
+                    <option value="Português">Português</option>
+                    <option value="Biológia">Biológia</option>
+                    <option value="Química">Ciencias</option>
+                    <option value="Hisória">História</option>
+                    <option value="Geografia">Geografia</option>
+                    <option value="Artes">Artes</option>
+                </select>
+            <br><br> 
+
+            <label for="Nivel de Escolaridade">Nivel de Escolaridade:</label><br>
+                <select>
+                    <option value="Ensino Superior Completo">Ensino Superior Completo</option>
+                    <option value="Cursando Mestrado">Cursando Mestrado</option>
+                    <option value="Mestrado Completo">Mestrado Completo</option>
+                    <option value="Cursando Doutorado">Cursando Doutorado</option>
+                    <option value="Doutorado Completo">Doutorado Completo</option>
+                </select>
+            <br><br>
+
+            <label for="message">Mensagem: escreva um breve descrição sobre você:</label><br>
+                <textarea id="message" name="message" rows="4" cols="200" required></textarea><br><br>
+
+
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
+</body>
+</html>
