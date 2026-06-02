@@ -1,12 +1,31 @@
- h1 {
-      color:blue;  
+ * {
+      color:black;  
     }
-    p {
-      
-      color:blue;
+    h1 {
+      color:green;
       font-family: Arial, Helvetica, sans-serif;
-
+    }
+    .sobre {
+      color:blue;
+    }
+    .projetos {
+      color:red;
+    }
+    .contatos {
+      color:orange;
+    }
+    .google {
+      color:darkgreen;
+    } 
+    #sobre_mim {
+       color:yellow;
+    }
+    #Habilidades {
+      color:red;
     }
 
-
-    
+    nav  { 
+      margin: auto;
+      padding: auto;
+      border: 1px solid black;
+    }
