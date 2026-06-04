@@ -23,6 +23,10 @@
     #Habilidades {
       color:red;
     }
+    #tabela {
+      margin: auto;
+      padding: auto;
+      border: 1px solid black;
 
     nav  { 
       margin: auto;
